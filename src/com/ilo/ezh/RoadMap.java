@@ -6,8 +6,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class RoadMap {
 
-    private final Map<String, City> CITIES  = new ConcurrentHashMap<>();
-    private final Map<String, Road> ROADS   = new ConcurrentHashMap<>();
+    final Map<String, City> CITIES  = new ConcurrentHashMap<>();
+    final Map<String, Road> ROADS   = new ConcurrentHashMap<>();
 
     public RoadMap() {
     }
